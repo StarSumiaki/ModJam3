@@ -1,0 +1,75 @@
+Hi thar!
+
+Here's some important infos on this mod, "Bizarre Fruits Mod"
+
+
+## HOW TO COMPILE ##
+
+1) Open your working MCP (with Forge 1.6.4 Recommended installed)
+2) Drop the entire directory hierarchy 'mj' (it and all its contents) into /mcp root/src/minecraft/
+3) Drop the 'minecraft' folder (and its contents) that is inside 'assets' into /mcp root/src/minecraft/assets/
+4) recompile
+5) startclient
+
+## WHAT DO ##
+
+This mod adds a new type of fruit called "Bizarre Fruit" and some subspecies for it.
+
+Bizarre Fruit is occasionally dropped by player-killed Creepers. On its own, it is a food item as filling as a carrot.
+
+Bizarre Fruit can be crafted with other things to create interesting fruits that invoke potion effects:
+
+
+SYNCHRO FRUIT
+	Surround a Bizarre Fruit in 8 emeralds
+ 
+	When consumed, gives the "Synchro I" potion effect for 2 minutes.
+	Synchro is a potion effect that gives you buffs depending on the amount of players within a 10 block radius who also have Synchro.
+	In general, it minimally takes 5 or more players to gain any buffs. It's a party potion effect!
+	
+	Note: The hunger level of players influences how much they contribute to the effect so a hungry player is practically useless.
+	
+	This effect grants Strength, Resistance, and Speed up to a limit based on present players. Each effect lasts 30 seconds so players
+	CAN spread out for a while before needing to regroup for more buffs.
+	
+	Synchro works on other living creatures as well, but the buff is limited to its specific species and is less effective per creature.
+	
+(SUPER/ENCHANTED) SYNCHRO FRUIT
+	Surround a Bizarre Fruit in 8 emerald blocks
+	
+	When consumed, gives the "Synchro II" effect for 2 minutes.
+	Same as normal fruit but expands the radius of effect to 30 blocks. Additionally, consumer can gain Absorption and Saturation.
+	
+	Note: Synchro and Synchro II acknowledge each other. If Player 1 has Synchro, he'll get Synchro benefits if others have Synchro II.
+	If Player 1 has Synchro II, he'll get Synchro II benefits even if everybody else only has Synchro.
+	
+	It's kind of an interesting design feature. Also, the comment in PotionSynchro.java lies. It's 2/4/6 not 3/6/10. I can't math.
+	
+ANTIVENIN FRUIT
+	Shapeless recipe of Bizarre Fruit, Red Mushroom, and Fermented Spider Eye.
+	
+	When consumed, gives the "Antivenin I" potion effect for 2 minutes.
+	Antivenin provides inoculation against Poison (but not Hunger or Wither). Inoculation != immunity. You may still take a half heart of
+	damage. However, it works to quickly negate any poison that you may have in your system.
+	
+	Very useful if playing Ultra Hardcore and exploring mineshafts or using mods that add lots of poisonous creatures.
+	
+VIGOR FRUIT
+	Surround a Bizarre Fruit with 8 Blaze Powder
+	
+	When consumed, gives the "Haste I" potion effect for 8 minutes
+	Like the beacon Haste effect but portable and not as cool.
+	
+LIFE FRUIT
+	Surround a Bizarre Fruit with 8 Gold Nuggets
+	
+	When consumed, gives the "Saturation I" potion effect for 2 minutes
+	Basically, makes you have limitless energy for 2 minutes. Yes, it's cheap. It's my jab back at the healing system being a nuisance.
+	Maybe a future version will add some detriments to it but for now, enjoy some OP fruit. It's good for the eyes! :D
+	
+
+## MISC NOTES ##
+
+That was fun! :D
+	
+	
